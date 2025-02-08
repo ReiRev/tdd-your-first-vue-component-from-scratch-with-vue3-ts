@@ -17,3 +17,7 @@
 - Setting up the development environment.
 - Testing Vue Components.
 - Typing the wrapper.
+
+### 02 Test Single File Component
+
+You can skip this chapter since I have already made the Counter as a Single File Component (SFC).

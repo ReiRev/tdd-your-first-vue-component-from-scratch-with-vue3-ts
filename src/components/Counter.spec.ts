@@ -13,10 +13,30 @@ describe('Counter', () => {
     expect(wrapper.vm.count).toBe(0)
   })
 
-  it('increments the count when the button is clicked', () => {
+  it('increments the count when the increment button is clicked', () => {
     expect(wrapper.vm.count).toBe(0)
-    wrapper.find('button').trigger('click')
+
+    wrapper.find('.increment').trigger('click')
+
     expect(wrapper.vm.count).toBe(1)
+  })
+
+  it('decrements the count when the decrement button is clicked', () => {
+    // We can't use setData against ref.
+    wrapper.vm.count = 5
+
+    wrapper.find('.decrement').trigger('click') // 1
+
+    expect(wrapper.vm.count).toBe(4)
+  })
+
+  it('never goes below zero', () => {
+    expect(wrapper.vm.count).toBe(0)
+
+    // testing style might be complicated with vitest, so skip.
+    wrapper.find('.decrement').trigger('click') // 1
+
+    expect(wrapper.vm.count).toBe(0)
   })
 
   it('presents the current count', () => {

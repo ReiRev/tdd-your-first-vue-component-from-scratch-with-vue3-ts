@@ -1,11 +1,19 @@
 # tdd-your-first-vue-component-from-scratch-with-vue3-ts
 
-## Getting started
 
-## TODO & Summary
+## TODO & Key Points
 
 ### 01 TDD Your First Vue Component From Scratch
 
-- [ ] Initialize a vue project with `npm create vue@latest`. 
-- [ ] Create a test, "Counter defaults to a count of 0," and pass it.
-- [ ] 
+#### TODO
+
+- [ ] Initialize a Vue project using npm create vue@latest.
+- [ ] Create a test: "Counter defaults to a count of 0," and make it pass.
+- [ ] Create a test: "Increments the count when the button is clicked," and make it pass.
+- [ ] Create a test: "Presents the current count," and make it pass.
+
+#### Key Points
+
+- Setting up the development environment.
+- Testing Vue Components.
+- Typing the wrapper.

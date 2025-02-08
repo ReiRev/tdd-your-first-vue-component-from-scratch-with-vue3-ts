@@ -6,5 +6,8 @@ defineExpose({ count })
 </script>
 
 <template>
-  {{ count }}
+  <div>
+    <span class="count" v-text="count"></span>
+    <button @click="count++"></button>
+  </div>
 </template>

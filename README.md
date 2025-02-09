@@ -35,3 +35,15 @@ You can skip this chapter since I have already made the Counter as a Single File
 
 - `only` API.
 - How to change ref directly.
+
+### 04 Implementation Details Versus Rendered Output
+
+#### TODO
+
+- [ ] Create a test: "Reminders hides the reminders list if there are none." and make it pass.
+- [ ] Create a test: "Reminders can add reminders" and make it pass.
+- [ ] Create a test: "Reminders can remove any reminder" and make it pass.
+
+#### Key Points
+
+- Type of data we should test.
